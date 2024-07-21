@@ -1,41 +1,80 @@
 input {
-    border-radius: 0.2cm;
+    border-radius: 1rem;
     padding: 10px;
     width: 500px;
     height: 20px;
     margin: 5px;
-    border: 2px solid black;
+    border: 1px solid rgba(30, 143, 255, 0.651);
+    font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
-    color:  black;
+    color: rgb(0, 60, 139) ;
+    outline: none;
+}
+
+input:focus{
+    border-color: #01a0fc42;
+    box-shadow: -0.5px 0.3px 3px 1px;
 }
 button {
-    padding: 10px;
-    border-radius: 0.2cm;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 0.8rem;
     margin: 5px;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: #f0f8ff67;
 }
 #list{
-    margin: 1.5px;
-    padding: 1.5px;
+    color: #f13e08;
     list-style: none;
-    color: black;
+    padding-left: 10px;
 }
 a {
-    color: black;
-    text-decoration: line-through 0.25px;
-    margin-bottom: 4px;
-    margin-left: 1px;
+    color: #0880f1af;
+    text-decoration: none;
+    margin-left: 0;
 }
+
+
 #ff{
-    border-color: green;
-    color: green;
+    border-color: #9b5595;
+    color: #9b5595;
 }
+#ff:hover{
+    background-color: #9b5595;
+    color: #ffffff;
+}
+
 #dd{
-    border-color: red;
-    color: red;
+    border-color: #b84a65;
+    color: #b84a65;
 }
+#dd:hover{
+    background-color: #b84a65;
+    color: #ffffff;
+}
+
 #tt{
-    border-color: blue;
-    color: blue;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+}
+#tt:hover{
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+#cc{
+    border-color: #c2c517a9;
+    color: #c2c517a9;
+}
+#cc:hover{
+    background-color: #c2c517a9;
+    color: #ffffff;
+}
+span{
+    margin-left: 10px;
+    color: #b84a66a6;
+    cursor: pointer;
 }
